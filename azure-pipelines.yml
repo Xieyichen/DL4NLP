@@ -15,6 +15,6 @@ steps:
     script: |
       git clone --mirror "https://anything:$(token)@dev.azure.com/yicxie2017/_git/DL4NLP"    
       cd test_gh.git	
-      git remote add --mirror=fetch secondary "https://anything:$(githubtoken)@github.com/Xieyichen/DL4NLP.git"
+      git remote add --mirror=fetch secondary "https://anything:$(199138Xx)@github.com/Xieyichen/DL4NLP.git"
       git fetch origin
       git push secondary --all
